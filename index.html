@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html 2</title>
+</head>
+<body>
+    <table border=”1” cellspacing=”0” cellpadding=”0”>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                <th>Savings 2</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>first cell</td>
+            <td colspan="2">second cell</td>
+        </tr>
+        <tr>
+            <td>first cell</td>
+            <td rowspan="2">second cell</td>
+            <td>third cell</td>
+        </tr>
+        <tr>
+            <td>first cell</td>
+            <td>second cell</td>
+        </tr>
+    </table>
+    <br><br>
+    <form action="" method="GET">
+        <label for="first name">First name:</label>
+        <input type="text" id="first name" name=”FirstNameInput” value="Matei" tabindex="0">
+        
+        <br>
+        <label for="passwordInput">Password:</label>
+        <input type="password" id="passwordInput" name="PasswordInput" placeholder="Please enter password" tabindex="1">
+
+        <br>
+        <label for="Comments">Text area</label>
+        <textarea name="Comments" id="Comments" tabindex="3">This is a multi-line text
+            field</textarea>
+        <input type="hidden" name="Account" value="This is a hidden text field" />
+        <br>
+        <label for="checkboxAppleInput">Apple</label>
+        <input type="checkbox" id=”checkboxAppleInput” name="fruit" value="Apple" tabindex="2" />
+        <label for="checkboxOrangeInput">Orange</label>
+        <input type="checkbox" id=”checkboxOrangeInput” name="fruit" value="Orange" tabindex="4" />
+        <br>
+        <input type="radio" id="male" name="gender" value="male" tabindex="5">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" tabindex="6">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" tabindex="7">
+        <label for="other">Other</label>
+        <br>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes" selected>Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+
+        <fieldset>
+            <legend>Order Details</legend>
+            <input type="text" id="Quantity" />  
+            <br>
+            <textarea cols="40" rows="10" id="Remarks"></textarea>
+            </fieldset>
+           </form>
+
+        <input type="reset" name="resetBtn" value="Reset the form" />
+
+        <input type="submit" name="submitBtn" value="Apply Now" />
+        <br>
+        
+        
+    </form>
+
+    <iframe name="iframeGoogle"
+        width="600" height="400"
+        src="http://www.wikipedia.org"
+        frameborder="yes"
+        scrolling="yes">
+    </iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XPfytii_g1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <header>
+        <nav>Navigation</nav>
+    </header>
+
+
+</body>
+</html>
